@@ -12,6 +12,7 @@ body {
 }
 
 h1,
+h2,
 h4,
 a,
 p {
@@ -35,12 +36,15 @@ ul {
 }
 
 .btn-light {
+  padding: 12px 32px;
   background: transparent;
   color: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid #fff;
 }
 
 .btn:hover {
-  background: #fff;
-  color: #21325e;
+  background: rgba(255, 255, 255, 0);
+  color: #fff;
   transition: 0.3s ease-in-out;
 }
