@@ -5,9 +5,9 @@ import React from "react";
 import {
   FaHome,
   FaPhone,
-  FaMailBulk,
   FaLinkedin,
   FaGithub,
+  FaMailBulk,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -33,11 +33,11 @@ const Footer = () => {
               +886 9 1138 5962
             </h4>
           </div>
-          <br />
+
           <div className="email">
             <h4>
               <FaMailBulk
-                size={20}
+                size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
               saiphanas.k@gmail.com

@@ -17,7 +17,7 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .location {
@@ -27,6 +27,10 @@
 
 .location p {
   line-height: 30px;
+}
+
+.email p {
+  line-height: 10px;
 }
 
 .right {
