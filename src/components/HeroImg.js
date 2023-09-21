@@ -1,6 +1,6 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import IntroImg from "../assets/intro-bg.jpg";
+import IntroImg from "../assets/intro-bg.JPG";
 import { Link } from "react-router-dom";
 import { FaHtml5, FaNodeJs } from "react-icons/fa";
 import { TbBrandJavascript, TbBrandReactNative } from "react-icons/tb";
@@ -12,7 +12,7 @@ function HeroImg() {
   return (
     <div className="hero">
       <div className="mask">
-        <img className="intro-img" src={IntroImg} alt="IntroImg" />
+        <img className="intro-img" src={IntroImg} alt="intro-bg" />
       </div>
       <div className="content">
         <h2>Hello! Im Goy,</h2>
@@ -53,9 +53,9 @@ function HeroImg() {
           <Link to="/project" className="btn">
             PROJECT
           </Link>
-          <Link to="/contact" className="btn-light">
+          {/* <Link to="/contact" className="btn-light">
             CONTACT
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

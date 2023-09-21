@@ -51,14 +51,26 @@ const Footer = () => {
           </h4>
 
           <div className="social">
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            <a
+              href="https://linkedin.com/in/kamolwan-s-84159b201"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://github.com/gxysai"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
