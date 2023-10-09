@@ -34,12 +34,12 @@ const Navbar = () => {
         <li>
           <Link to="/project">Projects</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/about">Experience</Link>
         </li>
         <li>
           <Link to="/contact">Contact</Link>
-        </li>
+        </li> */}
       </ul>
       <div className="burger" onClick={handleClick}>
         {click ? ( // if click is true, show FaTimes}

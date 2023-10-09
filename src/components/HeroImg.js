@@ -66,8 +66,15 @@ function HeroImg() {
             PROJECT
           </Link>
           {/* <Link to="/contact" className="btn-light">
-            CONTACT
+            DOWNLOAD Resume
           </Link> */}
+          <a
+            href="https://docs.google.com/document/d/1GxKBEgJEpk7-CRu-KSE7DAFjvrm3SnX8qaKTaQBYuT4/edit?usp=sharing"
+            download
+            className="btn-light"
+          >
+            DOWNLOAD Resume
+          </a>
         </div>
       </div>
     </div>

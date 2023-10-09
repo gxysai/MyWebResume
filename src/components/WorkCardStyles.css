@@ -15,10 +15,12 @@
 .project-card {
   background: rgba(184, 194, 221, 0.5);
   padding: 1.2rem 1rem;
+  border-radius: 1rem;
 }
 
 .project-card img {
   width: 100%;
+  border-radius: 1rem;
 }
 .project-title {
   color: #fff;
