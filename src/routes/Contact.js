@@ -1,7 +1,16 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import HeroImg2 from "../components/HeroImg2";
+import Footer from "../components/Footer";
 
-const Contact = () => {
-  return <div>Contact</div>;
+const Project = () => {
+  return (
+    <div>
+      <Navbar />
+      <HeroImg2 heading="CONTACT." text="Hire Me" />
+      <Footer />
+    </div>
+  );
 };
 
-export default Contact;
+export default Project;

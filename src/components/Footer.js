@@ -18,19 +18,16 @@ const Footer = () => {
           <div className="location">
             <FaHome size={30} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>
-                No. 4, 1st floor, Alley 18, Lane 711, Dingzhong Road, Sanmin
-                District, Kaohsiung City, Taiwan 80792
-              </p>
+              <p>Siphraya Road, Siphraya District, Bangrak, Bangkok 10500</p>
             </div>
           </div>
           <div className="phone">
             <h4>
               <FaPhone
-                size={20}
+                size={30}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              +886 9 1138 5962
+              0628130005
             </h4>
           </div>
 

@@ -1,12 +1,15 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import IntroImg from "../assets/intro-bg.JPG";
+import IntroImg from "../assets/introbg.jpg";
 import { Link } from "react-router-dom";
-import { FaHtml5, FaNodeJs } from "react-icons/fa";
+import { FaHtml5, FaNode } from "react-icons/fa";
 import { TbBrandJavascript, TbBrandReactNative } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BiGitBranch } from "react-icons/bi";
+import { TbBrandSupabase } from "react-icons/tb";
+import { SiPostman } from "react-icons/si";
+import { SiJsonwebtokens } from "react-icons/si";
 
 function HeroImg() {
   return (
@@ -22,30 +25,39 @@ function HeroImg() {
         </p>
         <div className="tech">
           <h3>
-            <FaHtml5 size={65} style={{ color: "#fff", marginRight: "2rem" }} />
+            <FaHtml5 size={50} style={{ color: "#fff", marginRight: "1rem" }} />
             <TbBrandJavascript
-              size={70}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              size={50}
+              style={{ color: "#fff", marginRight: "1rem" }}
             />
             <TbBrandReactNative
-              size={70}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              size={50}
+              style={{ color: "#fff", marginRight: "1rem" }}
             />
-            <FaNodeJs
-              size={70}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <FaNode size={50} style={{ color: "#fff", marginRight: "1rem" }} />
             <SiMongodb
-              size={70}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              size={50}
+              style={{ color: "#fff", marginRight: "1rem" }}
             />
             <BiLogoPostgresql
-              size={70}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              size={50}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <TbBrandSupabase
+              size={50}
+              style={{ color: "#fff", marginRight: "1rem" }}
             />
             <BiGitBranch
-              size={70}
-              style={{ color: "#fff", marginRight: "2rem" }}
+              size={45}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <SiPostman
+              size={40}
+              style={{ color: "#fff", marginRight: "1rem" }}
+            />
+            <SiJsonwebtokens
+              size={40}
+              style={{ color: "#fff", marginRight: "1rem" }}
             />
           </h3>
         </div>
