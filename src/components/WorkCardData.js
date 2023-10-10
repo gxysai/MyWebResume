@@ -7,7 +7,7 @@ const ProjectCardData = [
     imgsrc: pro1,
     title: "CourseFlow ",
     text: "An Online Classroom Management System. A platform for teachers to create courses and students to enroll in them.",
-    view: "https://651fceddc5b2d57fda094168--deluxe-cupcake-0b3265.netlify.app/",
+    view: "https://6525021f335edb22d3839ad5--subtle-chimera-03fd87.netlify.app/",
   },
   {
     imgsrc: pro2,
