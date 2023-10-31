@@ -1,5 +1,5 @@
 .footer {
-  width: 100;
+  width: 100%;
   padding: 5rem 0;
   background-color: #21325e;
 }
@@ -38,7 +38,7 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .social {
@@ -60,5 +60,10 @@ p {
 @media screen and (max-width: 640px) {
   .footer-container {
     grid-template-columns: 1fr;
+  }
+  .footer {
+    /* width: 100; */
+    height: 10%;
+    padding: 0rem 0rem;
   }
 }

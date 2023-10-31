@@ -5,6 +5,7 @@
 
 .project-container {
   max-width: 1140px;
+  height: 50vh;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -13,24 +14,29 @@
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   background: rgba(184, 194, 221, 0.5);
-  padding: 1.2rem 1rem;
+  padding: 1rem 1rem;
   border-radius: 1rem;
 }
 
 .project-card img {
   width: 100%;
+  height: 20vh;
   border-radius: 1rem;
 }
 .project-title {
   color: #fff;
   padding: 1rem 0;
+  /* height: 5vh; */
 }
 
 .pro-details p {
   padding-bottom: 1rem;
   font-size: 1.1rem;
   text-align: justify;
+  height: 10vh;
 }
 
 .pro-btns {
@@ -46,8 +52,18 @@
 @media screen and (max-width: 740px) {
   .project-container {
     max-width: 90%;
-    margin: auto;
+    /* margin: auto; */
 
     grid-template-columns: 1fr;
   }
+  .pro-details p {
+    height: 10vh;
+  }
+
+  .work-container {
+    height: 100vh;
+  }
+  /* .project-card {
+    height: ;
+  } */
 }

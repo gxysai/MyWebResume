@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 />
-      {/* <HeroImg2 heading="CONTACT." text="Hire Me" /> */}
+
+      <HeroImg2 heading="CONTACT" text="Hire Me" />
       <ContactForm />
       <Footer />
     </div>

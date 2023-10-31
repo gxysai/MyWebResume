@@ -73,7 +73,7 @@ function HeroImg() {
             download
             className="btn-light"
           >
-            DOWNLOAD Resume
+            RESUME
           </a>
         </div>
       </div>
