@@ -1,10 +1,7 @@
 import "./NavbarStyles.css";
-
 import { useState } from "react";
-
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -36,10 +33,10 @@ const Navbar = () => {
         </li>
         {/* <li>
           <Link to="/about">Experience</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/contact">Contact</Link>
-        </li> */}
+        </li>
       </ul>
       <div className="burger" onClick={handleClick}>
         {click ? ( // if click is true, show FaTimes}

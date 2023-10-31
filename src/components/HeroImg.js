@@ -63,7 +63,7 @@ function HeroImg() {
         </div>
         <div className="buttons">
           <Link to="/project" className="btn">
-            PROJECT
+            PROJECTS
           </Link>
           {/* <Link to="/contact" className="btn-light">
             DOWNLOAD Resume
