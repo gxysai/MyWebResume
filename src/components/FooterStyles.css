@@ -12,9 +12,9 @@
   grid-gap: 40px;
 }
 
-.left {
+.left,
+.right {
   height: 100%;
-  max-width: 100%;
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -33,37 +33,49 @@
   line-height: 10px;
 }
 
-.right {
-  height: 100%;
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  /* padding: 1rem; */
-}
-
 .social {
   margin-top: 1rem;
 }
-
-/* .social a {
-  margin-right: 1rem;
-} */
 
 h4 {
   font-size: 1.2rem;
   padding-bottom: 0.7rem;
 }
+
 p {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 640px) {
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
   .footer-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Stack elements on smaller screens */
   }
   .footer {
-    /* width: 100; */
-    height: 10%;
-    padding: 0rem 0rem;
+    padding: 3rem 0; /* Reduce padding for compact view */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust for mobile phones */
+  .footer-container {
+    padding: 1rem; /* Add some padding for better spacing */
+  }
+  .social a {
+    margin-bottom: 1rem; /* Space out social icons for easier tapping */
+  }
+  /* Additional adjustments for 375px screens */
+  .footer {
+    padding: 2rem 0; /* Further reduce padding for extra compactness */
+  }
+  h4 {
+    font-size: 1rem; /* Reduce heading size for better readability */
+  }
+  p {
+    font-size: 0.9rem; /* Reduce paragraph size for improved layout */
+  }
+  .location p,
+  .email p {
+    line-height: 20px; /* Adjust line height for smaller text */
   }
 }
